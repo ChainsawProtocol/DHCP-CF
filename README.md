@@ -5,10 +5,17 @@ pkg update
 pkg install unzip curl nano
 termux-setup-storage
 
-unzip "$HOME/storage/downloads/termux-netdhcp.zip" -d "$HOME"
+git clone https://github.com/ChainsawProtocol/DHCP-CF.git
+
+cd DHCP-CF
+
+see in directory termux-netdhcp.zip
+just -> unzip "$HOME/storage/downloads/termux-netdhcp.zip" -d "$HOME"
 cd "$HOME/termux-netdhcp"
 bash install-termux.sh
 ./ndhcp doctor
+
+
 
 Termux Network DHCP Tool: Installation Tutorial
 
