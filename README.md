@@ -17,6 +17,18 @@ bash install-termux.sh
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 Termux Network DHCP Tool: Installation Tutorial
 
 For beginners and experienced Termux users · Toolkit v1.0.0 · 24 October 2026
