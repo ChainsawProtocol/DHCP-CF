@@ -9,4 +9,3 @@ unzip "$HOME/storage/downloads/termux-netdhcp.zip" -d "$HOME"
 cd "$HOME/termux-netdhcp"
 bash install-termux.sh
 ./ndhcp doctor
-
